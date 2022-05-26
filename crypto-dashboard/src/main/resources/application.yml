@@ -1,0 +1,13 @@
+logging:
+  level:
+    it.crypto.dashboard: DEBUG
+
+server:
+  port: 8083
+
+
+
+crypto:
+  coinbase:
+    spotPrice:
+      url: https://api.coinbase.com/v2/prices/%s-%s/spot
